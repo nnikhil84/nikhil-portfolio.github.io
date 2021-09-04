@@ -4,6 +4,43 @@
     margin: 0;
 }
 
+.header {
+    padding: 20px 36px;
+    background-color: #F0ECE3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.header h1 a {
+    font-weight: bold;
+    font-size: 2vw;
+    color: #596E79;
+    margin: 0;
+    text-decoration: none;
+}
 
+.name {
+    color: #0F52BA;
+}
 
+.header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: #827055;
+    border-bottom: 2px solid #827055;
+}
+
+.header nav {
+    margin: 17px 0;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
