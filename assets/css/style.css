@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* header styling */
+
 .header {
     padding: 20px 36px;
     background-color: #F0ECE3;
@@ -43,4 +45,23 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+/* hero image styling */
+
+.hero {
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    margin-left: 70px;
+}
+
+.profile-img img {
+    border-radius: 200%;
 }
