@@ -4,11 +4,20 @@
     margin: 0;
 }
 
+/* color */
+
+:root {
+    --header-footer: #F0ECE3;
+    --body: #827055;
+    --name: #596E79;
+    --portfolio: #0F52BA; 
+}
+
 /* header styling */
 
 .header {
     padding: 20px 36px;
-    background-color: #F0ECE3;
+    background-color: var(--header-footer);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,13 +26,13 @@
 .header h1 a {
     font-weight: bold;
     font-size: 2vw;
-    color: #596E79;
+    color: var(--name);
     margin: 0;
     text-decoration: none;
 }
 
 .name {
-    color: #0F52BA;
+    color: var(--portfolio);
 }
 
 .header nav ul li a {
@@ -31,8 +40,8 @@
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
-    color: #827055;
-    border-bottom: 2px solid #827055;
+    color: var(--body);
+    border-bottom: 2px solid var(--body);
 }
 
 .header nav {
@@ -46,14 +55,14 @@
     list-style: none;
 }
 
-/* hero image styling */
+/* hero section styling */
 
 .hero {
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 200px 0;
 }
@@ -63,7 +72,21 @@
 }
 
 .profile-img img {
-    border-radius: 200%;
+    border-radius: 100%;
+}
+
+.portfolio {
+    margin-right: 7vw;
+    font-size: 1.8vw;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.portfolio h2 {
+    background-color: var(--header-footer);
+    color: var(--body);
 }
 
 /* Main Content Styling */
@@ -71,7 +94,7 @@
 .content {
     width: 100%;
     margin: 0 auto;
-    background-color: #827055;
+    background-color: var(--body);
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -86,8 +109,8 @@
 }
 
 .section-heading {
-    color: #F0ECE3;
-    border-right: 3px solid #F0ECE3;
+    color: var(--header-footer);
+    border-right: 3px solid var(--header-footer);
     margin: 0 50px;
     padding-right: 20px;
     font-size: .95vw;
@@ -110,7 +133,7 @@
 
 .about,
 .goals {
-    color: #F0ECE3;
+    color: var(--header-footer);
     width: 83vw;
     font-weight: lighter;
     display: flex;
@@ -156,9 +179,9 @@
 }
 
 .tin h3 {
-    color: #F0ECE3;
+    color: var(--header-footer);
     width: auto;
-    background-color: #827055;
+    background-color: var(--body);
     font-size: 50px;
     text-align: center;
     margin-top: 20px;
@@ -166,15 +189,16 @@
 }
 
 .wrk h3 {
-    color: #F0ECE3;
+    color: var(--header-footer);
     width: auto;
-    background-color: #827055;
+    background-color: var(--body)   ;
     font-size: 23px;
     text-align: center;
     margin-top: 10px;
     padding: 5px 0;    
 }
 .goals {
+    font-size: 1.55vw;
     display: flex;
     justify-content: left;
 }
@@ -182,7 +206,7 @@
 .section-article nav ul li a {
     margin: 0 160px;
     font-size: 3.55vw;
-    color: #F0ECE3;
+    color: var(--header-footer);
 }
 
 .section-article nav ul {
@@ -192,12 +216,15 @@
     list-style: none;
 }
 
+/* Footer Section */
+
 .footer {
-    padding: 40px 40px 36px;
-    background-color: #F0ECE3;
+    padding: 100px 30px 100px;
+    background-color: var(--header-footer);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-end;
 }
  .footer div {
      margin-top: .5vw;
