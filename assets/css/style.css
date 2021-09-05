@@ -192,4 +192,13 @@
     list-style: none;
 }
 
-
+.footer {
+    padding: 40px 40px 36px;
+    background-color: #F0ECE3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .footer div {
+     margin-top: .5vw;
+ }
