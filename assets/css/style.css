@@ -43,7 +43,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
@@ -175,3 +174,22 @@
     margin-top: 10px;
     padding: 5px 0;    
 }
+.goals {
+    display: flex;
+    justify-content: left;
+}
+
+.section-article nav ul li a {
+    margin: 0 160px;
+    font-size: 3.55vw;
+    color: #F0ECE3;
+}
+
+.section-article nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
