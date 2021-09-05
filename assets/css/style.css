@@ -56,12 +56,122 @@
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+    padding: 200px 0;
 }
 
 .profile-img {
-    margin-left: 70px;
+    margin-left: 3.5vw;
 }
 
 .profile-img img {
     border-radius: 200%;
+}
+
+/* Main Content Styling */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #827055;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.main-sections {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-heading {
+    color: #F0ECE3;
+    border-right: 3px solid #F0ECE3;
+    margin: 0 50px;
+    padding-right: 20px;
+    font-size: .95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-article { 
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right; 
+}
+
+.section {
+    width: 7.5vw;
+    text-align: center;
+}
+
+.about,
+.goals {
+    color: #F0ECE3;
+    width: 83vw;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-tin {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url(../images/tindog.png); 
+    background-size: cover;
+    height: 20vw;
+    width: 80vw;
+    margin-bottom: 2vw;
+}
+
+.refactor {
+    background-image: url(../images/refactor.png);
+    margin-right: 2vw;
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy.png);
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-size: cover;
+    height: 10vw;
+    width: 39vw;
+}
+
+.tin h3 {
+    color: #F0ECE3;
+    width: auto;
+    background-color: #827055;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.wrk h3 {
+    color: #F0ECE3;
+    width: auto;
+    background-color: #827055;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0;    
 }
