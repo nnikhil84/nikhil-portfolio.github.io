@@ -1,0 +1,82 @@
+:root {
+    --header-footer: #F0ECE3;
+    --body: #827055;
+    --name: #596E79;
+    --portfolio: #0F52BA; 
+}
+
+
+/* Header Pseudo Styles */
+
+.name:hover,
+.header h1 a:hover {
+    font-weight: lighter;
+    font-size: 5vw;
+    color: var(--header-footer);
+    text-decoration: none;
+    background-color: var(--body);
+    display: flex;
+    font-family: cursive;
+    padding: 0 20px;
+}
+
+.header nav ul li a:hover {
+    height: 30px;
+    length: 60px;
+    font-weight: bolder;
+    font-size: 3vw;
+    text-decoration: none;
+    background-color: var(--body);
+    color: var(--header-footer);
+    border-bottom: 4px solid var(--header-footer);
+    border-radius: 15px;
+}
+
+/* Section Heading Pseudo */
+
+.section-heading:hover {    
+    background-color: var(--header-footer);
+    color: var(--body);
+    border-right: 3px solid var(--body);
+    margin: 0 50px;
+    padding-right: 20px;
+    font-size: .95vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Article - My Work Pseudo classes */
+
+.work-tin:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url(../images/tindog.png); 
+    background-size: cover;
+    height: 25vw;
+    width: 95vw;
+    margin-bottom: none;
+    filter: sepia(50%);
+    background-color: none;
+}
+
+.work:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-size: cover;
+    height: 15vw;
+    width: 39vw;
+    filter: sepia(50%);
+}
+
+/* My Contact Pseudo Classes */
+
+.section-article nav ul li a:hover {
+    margin: 0 160px;
+    font-size: 3.55vw;
+    color: var(--header-footer);
+    filter: brightness(2);
+}
