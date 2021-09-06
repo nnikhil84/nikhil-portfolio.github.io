@@ -31,14 +31,14 @@
     color: var(--name);
     text-decoration: none;
     display: flex;
-    margin: 8px 0 0 8px;
+    margin: 4px 0 0 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header nav ul li a {
-    margin: 0 15px;
+    margin: 0 5px;
     font-weight: lighter;
-    font-size: 6px;
+    font-size: 10px;
     text-decoration: none;
     color: var(--body);
     border-bottom: 2px solid var(--body);
