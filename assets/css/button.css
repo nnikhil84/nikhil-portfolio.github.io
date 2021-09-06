@@ -1,10 +1,11 @@
 /* Resource Used: https://css3buttongenerator.com/ */
+@media screen and (min-width: 769px) {
 
 .btn-tin {
     display: flex;
     justify-content: space-around;
     margin-top: 10vw;
-}
+ }
 
 .btn-1 {
     background: #FEF7DC;
@@ -26,7 +27,7 @@
     padding: 25px 0;
     width: 500px;
     text-decoration: none;
-}
+ }
 
 .btn-1:hover {
     background: #5C3D2E;
@@ -36,13 +37,13 @@
     background-image: -o-linear-gradient(top, #5C3D2E, #FEF7DC);
     background-image: linear-gradient(to bottom, #5C3D2E, #FEF7DC);
     text-decoration: none;
-}
+ }
 
 .btn {
     display: flex;
     justify-content: space-around;
     margin-top: 5.5vw;
-}
+ }
 
 .btn-2 {
     background: #FEF7DC;
@@ -64,7 +65,7 @@
     padding: 10px 0;
     width: 240px;
     text-decoration: none;
-}
+ }
 
 .btn-2:hover {
     background: #5C3D2E;
@@ -74,11 +75,13 @@
     background-image: -o-linear-gradient(top, #5C3D2E, #FEF7DC);
     background-image: linear-gradient(to bottom, #5C3D2E, #FEF7DC);
     text-decoration: none; 
-}
+ }
 
 .btn-1 a,
 .btn-2 a, 
 .btn-1 a:hover,
 .btn-2 a:hover {
     text-decoration: none;
+ }
+
 }

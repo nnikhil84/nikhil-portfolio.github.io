@@ -1,9 +1,11 @@
-:root {
+@media screen and (min-width: 1024px) {
+    
+    :root {
     --header-footer: #F0ECE3;
     --body: #827055;
     --name: #596E79;
     --portfolio: #0F52BA; 
-}
+ }
 
 
 /* Header Pseudo Styles */
@@ -18,7 +20,7 @@
     display: flex;
     font-family: cursive;
     padding: 0 20px;
-}
+ }
 
 .header nav ul li a:hover {
     height: 30px;
@@ -30,7 +32,7 @@
     color: var(--header-footer);
     border-bottom: 4px solid var(--header-footer);
     border-radius: 15px;
-}
+ }
 
 /* Section Heading Pseudo */
 
@@ -45,7 +47,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-}
+ }
 
 /* Section Article - My Work Pseudo classes */
 
@@ -60,7 +62,7 @@
     margin-bottom: none;
     filter: sepia(50%);
     background-color: none;
-}
+ }
 
 .work:hover {
     display: flex;
@@ -70,7 +72,7 @@
     height: 15vw;
     width: 39vw;
     filter: sepia(50%);
-}
+ }
 
 /* My Contact Pseudo Classes */
 
@@ -79,4 +81,5 @@
     font-size: 3.55vw;
     color: var(--header-footer);
     filter: brightness(2);
+ }
 }
